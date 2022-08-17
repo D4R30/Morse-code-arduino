@@ -72,8 +72,8 @@ void show_msg(char *position){
 }
 
 void setup() {
-  pinMode(13, OUTPUT);
-  pinMode(8, OUTPUT);
+  pinMode(SHORT, OUTPUT);
+  pinMode(LONG, OUTPUT);
 }
 
 void loop() {
